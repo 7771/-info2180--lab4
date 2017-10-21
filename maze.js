@@ -13,13 +13,13 @@ document.body.getElementById("boundary1").setAttribute("youlose","changeColor");
 function load = {}
 window.onload = load;
 
-$( document.body ).hover(function() {
-  $( "div" ).each(function( i ) {
-    this.color = "red" ) {
-      this.style.color = "black";
-    } 
-  });
-});
+function divFunction() {
+    var x = document.querySelectorAll("boundary");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.backgroundColor = "red";
+    }
+}
 </script>
 
 
