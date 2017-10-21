@@ -1,15 +1,21 @@
 <script>
 
 <style>
-.changeColor{color:red;}
+var changeColor = color:red
+var newColor = color:black
 </style>
 
 maze.addEventListener("onmouseover", function(){
 
-onmouseover = "myFunction()"
 function myFunction(){
 document.body.getElementById("boundary1").setAttribute("youlose","changeColor");
-})};
+  
+document.body.getElementById("boundary1").style.color="red";
+};
+  )};
+onmouseover = "myFunction()"
+     
+                     
                       
 var x;                    
                     
@@ -26,7 +32,14 @@ for ( var i=0; i<elements.length; i++) {
     }, 
         function(){
     $(this).css("color", "black")
-    }
+    };
+                      
+function aFunction() {
+    var popup = document.getElementById("end");
+    popup.classList.toggle("show");
+      console.log("You win!");
+}
+                   
 </script>
 
 
