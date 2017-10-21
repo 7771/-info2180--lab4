@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 <style>
 .changeColor{color:red;}
 </style>
@@ -12,7 +9,6 @@ maze.addEventListener("mouseover", function(){
 function myFunction(){
 document.body.getElementById("id").setAttribute("youlose","changeColor");
 });
-
+function load = {}
+window.onload = load;
 </script>
-</body>
-</html>
